@@ -154,7 +154,7 @@ const updateCart = () => {
                 if(cart[i].qt > 1){
                     cart[i].qt--
                 }else {
-                    cart.splice(i)
+                    cart.splice(i,1)
                 }
                 updateCart()
 
